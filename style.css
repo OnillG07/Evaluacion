@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+}
+
+.headerBanco {
+    text-align: end;
+    width: 100%;
+    height: 100%;
+    color: rgba(0,60,200,0.9);
+    background-color: rgba(0,100,255,0.9);
+}
+
+.selectHeader {
+    color: aqua;
+}
+
+.logoBanco {
+    align-items: center;
+    width: 150px;
+}
+
+.bienvBanco {
+    color: rgba(0,75,255,0.9);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.box {
+    text-align: left;
+    width: 450px;
+    align-items: left;
+    padding: 5px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.tecladoVirtual {
+    text-align: end;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0,75,255,0.9);
+}
+
+.linea {
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.password {
+    text-align: end;
+    color: rgba(0,75,255,0.9);
+}
+
+.usuario {
+    text-align: end;
+}
+
+span {
+    color: rgba(0,75,255,0.9);
+}
